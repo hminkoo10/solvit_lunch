@@ -292,8 +292,8 @@ def create_and_upload_daily_info():
 print("ready")
 
 # 8. 매일 정해진 시간에 함수 실행
-#schedule.every().day.at("18:00").do(create_and_upload_daily_info)
-create_and_upload_daily_info()
+schedule.every().day.at("18:00").do(create_and_upload_daily_info)
+#create_and_upload_daily_info()
 
 # 9. 스케줄러 실행
 while True:
