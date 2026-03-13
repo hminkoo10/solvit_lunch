@@ -1,2 +1,2 @@
 # solvit_lunch
-solvit middle school lunch notification instabot
+솔빛중학교 급식 정보 인스타 업로더 봇입니다.
